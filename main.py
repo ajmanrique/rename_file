@@ -18,7 +18,6 @@ def main(*args):
         print("Renombrando archivo: {}".format(file_name))
         shutil.move(os.path.join(abs_path, file_name), os.path.join(abs_path, args[2]),)
 
-        # print("Resultado en directorio: {}".format([d for d in os.scandir(abs_path)]))
         print("Resultado en directorio: {0} = {1}".format(abs_path, os.listdir(abs_path)))
 
     print("Archivos tratados: {}".format(len(iter_files)))
