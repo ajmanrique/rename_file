@@ -1,0 +1,1 @@
+Renombra todas las coincidencias de un nombre de archivo dado en un directorio base de manera recursiva.
